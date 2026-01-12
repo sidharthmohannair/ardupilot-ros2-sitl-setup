@@ -315,4 +315,4 @@ sudo apt install python3-wxgtk4.0 python3-matplotlib python3-opencv
 
 ---
 
-[← Back to Index](../README.md) | [Next: Module 02 - ROS2 Installation](../docs/02-ros2-system.md%20)
+[← Back to Index](../README.md) | [Next: Module 02 - ROS2 Installation](../docs/02-ros2-system.md)
