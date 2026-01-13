@@ -1,4 +1,8 @@
-# ArduPilot, ROS2, and MAVROS Integration Guide
+# ArduPilot, ROS2, MAVROS, and Gazebo Integration Guide
+
+<p align="center">
+  <img src="/images/repository_cover.png" alt="ArduPilot ROS2 MAVROS Gazebo Integration" width="100%">
+</p>
 
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-343434?style=flat-square&logo=ros&logoColor=white)
 ![ArduPilot](https://img.shields.io/badge/ArduPilot-SITL-E03C31?style=flat-square&logo=ardupilot&logoColor=white)
