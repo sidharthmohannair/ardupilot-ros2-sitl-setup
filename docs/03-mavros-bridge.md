@@ -238,3 +238,10 @@ cat /etc/apt/sources.list.d/ros2.list
 ---
 
 [← Back Module 02](../docs/02-ros2-system.md) | [Next: Module 04 - Gazebo Installation](../docs/04-gazebo-simulator.md)
+
+---
+<p align="center">
+  Made with ❤️ for the drone community<br>
+  <a href="https://github.com/simtofly">SimToFly</a> • 
+  <a href="https://github.com/sidharthmohannair">@sidharthmohannair</a>
+</p>

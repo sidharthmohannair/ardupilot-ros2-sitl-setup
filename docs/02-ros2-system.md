@@ -232,3 +232,10 @@ source /opt/ros/humble/setup.bash
 ---
 
 [← Back: Module 01](../docs/01-ardupilot-sitl.md) | [Next: Module 03 - MAVROS Setup](../docs/03-mavros-bridge.md)
+
+---
+<p align="center">
+  Made with ❤️ for the drone community<br>
+  <a href="https://github.com/simtofly">SimToFly</a> • 
+  <a href="https://github.com/sidharthmohannair">@sidharthmohannair</a>
+</p>
