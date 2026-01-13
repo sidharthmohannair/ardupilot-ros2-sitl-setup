@@ -10,7 +10,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
-This repository provides a structured, reproducible, and verifiable guide for building a UAV research and simulation environment. It covers the installation and integration of ArduPilot SITL (Software-In-The-Loop), ROS2 (Robot Operating System), MAVROS, and Gazebo.
+A comprehensive, step-by-step guide for setting up a UAV simulation environment using ArduPilot SITL, ROS2 Humble, MAVROS, and Gazebo Harmonic. Validated for Ubuntu 22.04, this repository solves common integration issues encountered by researchers and students when building autonomous drone pipelines.
 
 This guide is designed for students, researchers, and developers who require a validated development workflow before moving to advanced topics such as offboard control, perception pipelines, or swarm coordination.
 
@@ -31,10 +31,15 @@ This repository is validated on the following configuration:
 * **WSL2 Users:** Phases 1 through 3 (Headless) work perfectly on WSL2. However, Phases 4 and 5 (Gazebo) depend on **WSLg** graphics support, which can vary in stability depending on your GPU drivers.
 * **Virtual Machines:** Support is **not provided** for VMWare or VirtualBox due to poor GPU pass-through performance required for the simulation physics engine.
 
+## Key Features
+* **Validated Stack:** Tested on Ubuntu 22.04 LTS with ROS2 Humble and ArduPilot Copter-4.x.
+* **Modular Design:** Separate modules for SITL, ROS2, and Gazebo allow for **Headless (No-GUI)** configurations.
+* **Virtualization Support:** Includes specific guidance for running **ArduPilot on WSL2** (Windows Subsystem for Linux).
+* **Research Ready:** Standardized workflow suitable for academic labs, swarm simulations, and offboard control development.
+
 ## Repository Structure
 
 ```text
-
 ├── docs/
 │   ├── 01-ardupilot-sitl.md       # Flight dynamics engine setup
 │   ├── 02-ros2-system.md          # Middleware installation
@@ -44,7 +49,6 @@ This repository is validated on the following configuration:
 ├── scripts/                       # Helper scripts (if applicable)
 ├── LICENSE
 └── README.md
-
 ```
 
 ## Installation Roadmap
@@ -93,6 +97,17 @@ This repository serves as a prerequisite for advanced UAV development. Before at
 1. **Simulation:** Gazebo launches without error and runs at real-time speed.
 2. **Connection:** MAVROS connects to the simulated Flight Control Unit (FCU).
 3. **Data:** Running `ros2 topic list` displays valid `/mavros/` topics.
+
+## Frequently Asked Questions (FAQ)
+
+### Why use ArduPilot SITL with ROS2?
+SITL (Software In The Loop) provides a high-fidelity flight dynamics engine that runs the actual ArduPilot firmware. Connecting this to ROS2 via MAVROS allows developers to write high-level autonomous control scripts in Python/C++ while ensuring the underlying flight logic is realistic.
+
+### Can I run this without Gazebo?
+Yes. Follow Phases 1 through 3 to set up a "Headless" environment. This is ideal for testing MAVLink communication, CI/CD pipelines, or running swarm simulations on low-power hardware.
+
+### Does this support PX4 Autopilot?
+This guide is optimized specifically for **ArduPilot**. While MAVROS supports PX4, the parameter configurations and launch files (apm.launch) used here are specific to the ArduPilot flight stack.
 
 ## Contributing
 
