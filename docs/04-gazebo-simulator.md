@@ -17,7 +17,7 @@ In this module, you will install **Gazebo Harmonic**, a modern 3D robotics simul
 
 * **Completed:** Module 01 [ArduPilot SITL installed](../docs/01-ardupilot-sitl.md).
 * **Completed:** Module 02 [ROS 2 installed](../docs/02-ros2-system.md).
-* **Completed:** Module 03 [MAVROS installed](../docs/03-mavros-setup.md).
+* **Completed:** Module 03 [MAVROS installed](../docs/03-mavros-bridge.md).
 * **System:** Ubuntu 22.04 (Jammy) with functional graphics support.
 * **Network:** Active internet connection (required for packages and models).
 
@@ -252,4 +252,11 @@ The next module will install the `ardupilot_gazebo` plugin that connects ArduPil
 
 ---
 
-[← Back Module 03](../docs/03-mavros-setup.md) | [Next: Module 05 - ArduPilot-Gazebo Integration](../docs/05-gazebo-bridge.md)
+[← Back Module 03](../docs/03-mavros-setup.md) | [Next: Module 05 - ArduPilot-Gazebo Integration](../docs/05-gazebo-ardupilot.md)
+
+---
+<p align="center">
+  Made with ❤️ for the drone community<br>
+  <a href="https://github.com/simtofly">SimToFly</a> • 
+  <a href="https://github.com/sidharthmohannair">@sidharthmohannair</a>
+</p>
