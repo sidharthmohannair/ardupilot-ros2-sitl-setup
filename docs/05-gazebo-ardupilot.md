@@ -421,4 +421,4 @@ With the complete simulation environment running, you can:
 
 ---
 
-[← Back Module 04](../docs/04-gazebo-installation.md) | **Congratulations! Complete Simulation Environment Ready!**
+[← Back: Module 04 - Gazebo Simulator](../docs/04-gazebo-simulator.md) | **Congratulations! Complete Simulation Environment Ready!**

@@ -231,7 +231,7 @@ source /opt/ros/humble/setup.bash
 
 ---
 
-[← Back: Module 01](../docs/01-ardupilot-sitl.md) | [Next: Module 03 - MAVROS Setup](../docs/03-mavros-bridge.md)
+[← Back: Module 01 - Ardupilot Setup](../docs/01-ardupilot-sitl.md) | [Next: Module 03 - MAVROS Setup](../docs/03-mavros-bridge.md)
 
 ---
 <p align="center">

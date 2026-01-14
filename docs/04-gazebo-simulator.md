@@ -252,7 +252,7 @@ The next module will install the `ardupilot_gazebo` plugin that connects ArduPil
 
 ---
 
-[← Back Module 03](../docs/03-mavros-setup.md) | [Next: Module 05 - ArduPilot-Gazebo Integration](../docs/05-gazebo-ardupilot.md)
+[← Back: Module 03 - MAVROS Bridge](../docs/03-mavros-bridge.md) | [Next: Module 05 - ArduPilot-Gazebo Integration](../docs/05-gazebo-ardupilot.md)
 
 ---
 <p align="center">

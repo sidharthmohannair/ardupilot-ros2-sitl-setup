@@ -237,7 +237,7 @@ cat /etc/apt/sources.list.d/ros2.list
 
 ---
 
-[← Back Module 02](../docs/02-ros2-system.md) | [Next: Module 04 - Gazebo Installation](../docs/04-gazebo-simulator.md)
+[← Back: Module 02 - ROS2 Setup](../docs/02-ros2-system.md) | [Next: Module 04 - Gazebo Installation](../docs/04-gazebo-simulator.md)
 
 ---
 <p align="center">
