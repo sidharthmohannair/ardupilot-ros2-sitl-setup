@@ -421,4 +421,11 @@ With the complete simulation environment running, you can:
 
 ---
 
-[← Back: Module 04 - Gazebo Simulator](../docs/04-gazebo-simulator.md) | **Congratulations! Complete Simulation Environment Ready!**
+[← Back: Module 04 - Gazebo Simulator](../docs/04-gazebo-simulator.md) | **Congratulations! Complete Simulation Environment Ready!** | [Next: Module 06 - Basic Flight Control](../docs/06-basic-flight-control.md)
+
+---
+<p align="center">
+  Made with ❤️ for the drone community<br>
+  <a href="https://github.com/simtofly">SimToFly</a> • 
+  <a href="https://github.com/sidharthmohannair">@sidharthmohannair</a>
+</p>

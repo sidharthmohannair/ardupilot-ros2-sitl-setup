@@ -45,10 +45,16 @@ This repository is validated on the following configuration:
 │   ├── 02-ros2-system.md          # Middleware installation
 │   ├── 03-mavros-bridge.md        # Communication bridge setup
 │   ├── 04-gazebo-simulator.md     # Physics engine installation
-│   └── 05-gazebo-ardupilot.md     # Full integration and 3D visualization
-├── scripts/                       # Helper scripts (if applicable)
-├── LICENSE
-└── README.md
+│   ├── 05-gazebo-ardupilot.md     # Full integration and 3D visualization
+│   └── 06-basic-flight-control.md # ROS2 Python flight control examples
+├── scripts/                       # Flight control example scripts
+│   ├── README.md                  # Quick reference guide
+│   ├── 01_simple_takeoff.py
+│   ├── 02_setpoint_position.py
+│   ├── 03_waypoint_navigation.py
+│   ├── 04_square_pattern.py
+│   └── data/
+│       └── waypoints.txt
 ```
 
 ## Installation Roadmap
@@ -90,6 +96,13 @@ Integrate ArduPilot with Gazebo using the `ardupilot_gazebo` plugin.
 * **Outcome:** Perform a full system validation with a 3D visualizer.
 * **[> Go to Module 05: Gazebo Bridge Setup](docs/05-gazebo-ardupilot.md)**
 
+### Phase 6: Basic Flight Control (Optional)
+Learn autonomous flight control using ROS2 Python scripts.
+* **Objective:** Control the simulated UAV using MAVROS services and topics.
+* **Outcome:** Execute takeoff, position control, waypoint missions, and geometric patterns.
+* **[> Go to Module 06: Basic Flight Control](docs/06-basic-flight-control.md)**
+* **[> Flight Control Scripts Reference](/scripts/README.md)**
+
 ## Usage and Validation
 
 This repository serves as a prerequisite for advanced UAV development. Before attempting autonomous flight, offboard control, or swarm simulations, ensure your system meets the following criteria:
@@ -97,6 +110,7 @@ This repository serves as a prerequisite for advanced UAV development. Before at
 1. **Simulation:** Gazebo launches without error and runs at real-time speed.
 2. **Connection:** MAVROS connects to the simulated Flight Control Unit (FCU).
 3. **Data:** Running `ros2 topic list` displays valid `/mavros/` topics.
+4. **Control:** Flight control scripts successfully command takeoff, navigation, and landing.
 
 ## Frequently Asked Questions (FAQ)
 
@@ -108,6 +122,15 @@ Yes. Follow Phases 1 through 3 to set up a "Headless" environment. This is ideal
 
 ### Does this support PX4 Autopilot?
 This guide is optimized specifically for **ArduPilot**. While MAVROS supports PX4, the parameter configurations and launch files (apm.launch) used here are specific to the ArduPilot flight stack.
+
+### How do I start writing autonomous flight code?
+After completing the installation, refer to **Module 06** for practical examples. The repository includes four Python scripts demonstrating:
+- Basic takeoff/landing sequences
+- Position-based navigation
+- GPS waypoint missions
+- Geometric flight patterns
+
+These scripts serve as templates for building custom autonomous behaviors.
 
 ## Contributing
 
