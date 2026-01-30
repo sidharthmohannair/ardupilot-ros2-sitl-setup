@@ -11,7 +11,7 @@ This script demonstrates the basic autonomous flight sequence:
 5. Hover for 10 seconds
 6. Land automatically
 
-Author: SimToFly
+Author: Sidharth Mohan Nair https://github.com/sidharthmohannair | SimToFly https://github.com/simtofly
 License: MIT
 """
 

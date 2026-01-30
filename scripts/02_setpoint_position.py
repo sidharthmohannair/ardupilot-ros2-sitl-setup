@@ -12,7 +12,7 @@ This script demonstrates position control using setpoint commands:
 
 Position coordinates are in ENU (East-North-Up) frame relative to takeoff point.
 
-Author: SimToFly
+Author: Sidharth Mohan Nair https://github.com/sidharthmohannair | SimToFly https://github.com/simtofly
 License: MIT
 """
 

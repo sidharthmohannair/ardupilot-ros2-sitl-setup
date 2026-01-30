@@ -23,7 +23,7 @@ Corners (ENU coordinates):
 3. (0, 10, 10)
 4. (0, 0, 10)
 
-Author: SimToFly
+Author: Sidharth Mohan Nair https://github.com/sidharthmohannair | SimToFly https://github.com/simtofly
 License: MIT
 """
 

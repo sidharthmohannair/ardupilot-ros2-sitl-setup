@@ -11,7 +11,7 @@ Correct sequence:
 5. Switch to AUTO mode
 6. Execute waypoint mission
 
-Author: SimToFly
+Author: Sidharth Mohan Nair https://github.com/sidharthmohannair | SimToFly https://github.com/simtofly
 License: MIT
 """
 
