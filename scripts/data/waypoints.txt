@@ -1,0 +1,20 @@
+# GPS Waypoint File for ArduPilot Mission
+# Format: latitude, longitude, altitude (meters relative to home)
+
+# Square pattern around home position
+# Home is at: -35.363261, 149.165237
+
+# Waypoint 1: 50m East
+-35.363261, 149.165787, 10
+
+# Waypoint 2: 50m East, 50m North  
+-35.362811, 149.165787, 10
+
+# Waypoint 3: 50m North
+-35.362811, 149.165237, 15
+
+# Waypoint 4: 50m West
+-35.362811, 149.164687, 15
+
+# Waypoint 5: Return home
+-35.363261, 149.165237, 10
